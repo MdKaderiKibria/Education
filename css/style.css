@@ -1,0 +1,103 @@
+/* 
+font-family: 'Dosis', sans-serif;
+font-family: 'Sniglet', cursive;
+font-family: 'Lato', sans-serif; 
+*/
+/* global css start */
+body{
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+}
+
+/* global css end */
+/* header start */
+header{
+    background-color: #ffd338;
+}
+.logo{
+    width: 100%;
+}
+
+.menu ul li a{
+    font-size: 18px;
+    font-weight: 700px !important;
+    color: white !important;
+    margin-bottom: 8px !important;
+    padding: 2px 20px !important;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.menu ul li a:hover{
+    background-color: #f05c5c;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+
+.d_user_a, .d_search_a{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    color: white ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.d_user_a i, .d_search_a i{
+    padding-bottom: -2px !important;
+}
+.d_user_a:hover, .d_search_a:hover{
+    color: #f05c5c;
+}
+.d_user_a:focus, .d_search_a:focus{
+    outline: 0;
+    box-shadow: 0 0 10px 2px #ffffff;
+}
+.d_user ul, .d_search ul{
+    background-color: #ffd338 !important;
+    left: -5px;
+    top: 160%;
+    padding: 0.5rem 10px;
+}
+.d_search ul{
+   width: 300px;
+   left: -135px;
+}
+.src-btn{
+    background-color: transparent;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.form-control{
+    height: 35px;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #f05c5c;
+    outline: 0;
+    box-shadow: 0 0 10px 2px #f18f8f;
+}
+.src-btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px 2px #f18f8f;
+}
+.src-btn:hover {
+    color: #f05c5c;
+}
+/* header end */

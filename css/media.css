@@ -1,0 +1,126 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media(max-width:575.98px){
+   
+    .d_search{
+        margin-top: 10px;
+    }
+   
+    .d_user ul, .d_search ul {
+        background-color: #ffd338 !important;
+        left: 2%;
+        top: -5%;
+    }
+    .d_search ul {
+        width: 270px;
+        margin-top: 10px;
+        top: 90%;
+        left: 20%;
+    }
+    .form-control{
+        height: 35px;
+        padding: 2px 0px;
+    }
+    .menu ul li a:hover {
+        background-color: transparent;
+        color: #f05c5c !important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 10px 2px #f18f8f;
+        font-size: 20px;
+    }
+    
+}
+
+/* small devices (landscape phones, 576px and up) */
+@media(min-width:576px) and (max-width:767.98px){
+    
+    .d_search{
+        margin-top: 10px;
+    }
+   
+    .d_user ul, .d_search ul {
+        background-color: #ffd338 !important;
+        left: 2%;
+        top: -5%;
+    }
+    .d_search ul {
+        width: 270px;
+        margin-top: 10px;
+        top: 85%;
+        left: 1%;
+    }
+    .form-control{
+        height: 35px;
+        padding: 2px 0px;
+    }
+    .menu ul li a:hover {
+        background-color: transparent;
+        color: #f05c5c !important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 10px 2px #f18f8f;
+        font-size: 20px;
+    }
+}
+
+
+/* Medium devices (Tablates, 768px and up) */
+@media(min-width:768px) and (max-width:991.98px){
+    
+    .d_search{
+        margin-top: 10px;
+    }
+   
+    .d_user ul, .d_search ul {
+        background-color: #ffd338 !important;
+        left: 114px;
+        top: -5%;
+    }
+    .d_search ul {
+        width: 300px;
+        margin-top: 10px;
+        top: -42%;
+        left: 1%;
+    }
+    .form-control{
+        height: 35px;
+        padding: 2px 0px;
+    }
+    .menu ul li a:hover {
+        background-color: transparent;
+        color: #f05c5c !important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 10px 2px #f18f8f;
+        font-size: 20px;
+    }
+
+}
+
+/* small devices (landscape phones, 992px and up) */
+@media(min-width:992px) and (max-width:1199.98px){
+    .d_user ul, .d_search ul {
+        width: 300px;
+        left: -214px;
+    }
+}
+
+/* small devices (landscape phones, 1200px and up) */
+@media(min-width:1200px) and (max-width:1399.98px){
+    
+}
+
+/* Custom (landscape phones, 1400px and up) */
+@media(min-width:1400px) and (max-width:1599.98px){
+   
+}
+
+/* custom devices (landscape phones, 1600px and up) */
+@media(min-width:1600px) and (max-width:1799.98px){
+    
+}
+
+/* Custom devices (landscape phones, 1800px and up) */
+@media(min-width:1800px){
+    
+}
