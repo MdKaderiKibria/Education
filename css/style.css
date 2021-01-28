@@ -8,7 +8,46 @@ body{
     font-family: 'Dosis', sans-serif;
     font-size: 16px;
 }
+a{
+    text-decoration: none !important;
+}
+.sec-header{
 
+}
+.sec-header h1{
+    width: 460px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 5px dotted white;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 5px #bbbbbb;
+}
+.c_btn{
+    background-color: white;
+    padding: 10px 35px;
+    border-radius: 50px 10px 10px 50px;
+    -webkit-border-radius: 50px 10px 10px 50px;
+    -moz-border-radius: 50px 10px 10px 50px;
+    -ms-border-radius: 50px 10px 10px 50px;
+    -o-border-radius: 50px 10px 10px 50px;
+    box-shadow: 8px 10px 8px #000000;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+.c_btn:hover{
+    background-color: #f05c5c;
+    color: white !important;
+    box-shadow: 8px 10px 8px #a8a3a3;
+}
+.pb-100{
+    padding-bottom: 200px;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
 /* global css end */
 /* header start */
 header{
@@ -101,3 +140,131 @@ header{
     color: #f05c5c;
 }
 /* header end */
+
+/* banner start */
+.banner{
+    background-image: url(../images/header-media.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 660px;
+    background-color: #bbbbbb;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner-text{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.11), white);
+    position: absolute;
+    top: 0px;
+    left: 0%;
+}
+.banner-text h1{
+    margin-top: 200px;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+/* banner end */
+/* kid edu start */
+.kid-edu{
+    position: relative;
+}
+.kid-edu img{
+    width: 100%;
+}
+.scroll-text{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.scroll-text p{
+    font-family: 'Lato', sans-serif; 
+    font-size: 18px;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+.scroll-text p i{
+    font-size: 30px;
+    color: #bbbbbb;
+}
+
+.scroll-text p i:hover{
+    color: #f05c5c;
+}
+
+.kid-edu-text{
+}
+.kid-edu-text:hover{
+}
+.kid-edu-text h2{
+    font-size: 24px;
+
+}
+.kid-edu-text p{
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+}
+.kid-edu-img{
+    overflow: hidden;
+    height: 320px;
+    position: relative;
+}
+.kid-edu-img img{
+    position: absolute;
+    top: -20px;
+    left: -138px;
+    width: 195%;
+    height: 195%;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+}
+.kid-edu-img:hover img{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    
+}
+.about-overlay{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.363);
+    right: -100%;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+}
+.about-overlay .c_btn{
+    margin: 50% 40px;
+}
+.kid-edu-img:hover .about-overlay{
+    right: 0px;
+}
+/* kid edu end */
